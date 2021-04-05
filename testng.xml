@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="TestingSuite">
+    <test name="Amazon Testing">
+        <classes>
+            <class name="com.amazon.testing.AddEGiftCardToBasket"/>
+            <class name="com.amazon.testing.SearchWithNoResultsFound"/>
+            <class name="com.amazon.testing.SuccessfulLogin"/>
+            <class name="com.amazon.testing.LoginWithNotExistedEmail"/>
+            <class name="com.amazon.testing.LoginWithInvalidPassword"/>
+        </classes>
+    </test> <!-- Test -->
+</suite> <!-- Suite -->
